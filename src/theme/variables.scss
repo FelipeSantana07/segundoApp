@@ -74,6 +74,51 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  --ion-color-verdeagua: #136244;
+  --ion-color-verdeagua-rgb: 19,98,68;
+  --ion-color-verdeagua-contrast: #ffffff;
+  --ion-color-verdeagua-contrast-rgb: 255,255,255;
+  --ion-color-verdeagua-shade: #11563c;
+  --ion-color-verdeagua-tint: #2b7257;
+  
+  --ion-color-verdeaguabar: #073b27;
+  --ion-color-verdeaguabar-rgb: 7,59,39;
+  --ion-color-verdeaguabar-contrast: #ffffff;
+  --ion-color-verdeaguabar-contrast-rgb: 255,255,255;
+  --ion-color-verdeaguabar-shade: #063422;
+  --ion-color-verdeaguabar-tint: #204f3d;
+
+  --ion-color-verdeaguapost: #27624c;
+  --ion-color-verdeaguapost-rgb: 39,98,76;
+  --ion-color-verdeaguapost-contrast: #ffffff;
+  --ion-color-verdeaguapost-contrast-rgb: 255,255,255;
+  --ion-color-verdeaguapost-shade: #225643;
+  --ion-color-verdeaguapost-tint: #3d725e;
+}
+.ion-color-verdeaguapost {
+  --ion-color-base: var(--ion-color-verdeaguapost);
+  --ion-color-base-rgb: var(--ion-color-verdeaguapost-rgb);
+  --ion-color-contrast: var(--ion-color-verdeaguapost-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-verdeaguapost-contrast-rgb);
+  --ion-color-shade: var(--ion-color-verdeaguapost-shade);
+  --ion-color-tint: var(--ion-color-verdeaguapost-tint);
+}
+.ion-color-verdeagua {
+  --ion-color-base: var(--ion-color-verdeagua);
+  --ion-color-base-rgb: var(--ion-color-verdeagua-rgb);
+  --ion-color-contrast: var(--ion-color-verdeagua-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-verdeagua-contrast-rgb);
+  --ion-color-shade: var(--ion-color-verdeagua-shade);
+  --ion-color-tint: var(--ion-color-verdeagua-tint);
+}
+.ion-color-verdeaguabar {
+  --ion-color-base: var(--ion-color-verdeaguabar);
+  --ion-color-base-rgb: var(--ion-color-verdeaguabar-rgb);
+  --ion-color-contrast: var(--ion-color-verdeaguabar-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-verdeaguabar-contrast-rgb);
+  --ion-color-shade: var(--ion-color-verdeaguabar-shade);
+  --ion-color-tint: var(--ion-color-verdeaguabar-tint);
 }
 
 @media (prefers-color-scheme: dark) {
